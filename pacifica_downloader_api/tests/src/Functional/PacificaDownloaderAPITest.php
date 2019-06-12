@@ -1,26 +1,26 @@
 <?php
 
-namespace Drupal\Tests\pacifica_consumer\Functional;
+namespace Drupal\Tests\pacifica_downloader_api\Functional;
 
 use Drupal\Tests\BrowserTestBase;
 
 /**
- * Tests behavior for saving the pacifica consumer field elements.
+ * Tests behavior for saving the pacifica api field elements.
  *
- * @group pacifica_consumer
+ * @group pacifica_downloader
  */
-class PacificaConsumerTest extends BrowserTestBase {
+class PacificaDownloaderAPITest extends BrowserTestBase {
   /**
    * Modules to enable.
    *
    * @var array
    */
-  public static $modules = ['pacifica_consumer', 'node'];
+  public static $modules = ['pacifica_downloader_api', 'node'];
 
   /**
     * Basic test setup.
     */
-  public function testPacificaConsumerSave() {
+  public function testPacificaDownloaderAPISave() {
     $storage = \Drupal::entityTypeManager()->getStorage('node');
     // Save a node programatically.
     $node = $storage->create([

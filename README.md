@@ -1,2 +1,3 @@
-# pacifica-drupal-module-consumer
-Drupal module for consuming cloudevents from Pacifica services.
+# Pacifica Drupal Module for Downloading
+
+Drupal module for downloading and staging data from Pacifica.

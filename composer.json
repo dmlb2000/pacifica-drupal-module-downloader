@@ -1,6 +1,6 @@
 {
-    "name": "drupal/pacifica_consumer",
-    "description": "Consume Pacifica events and process on them.",
+    "name": "drupal/pacifica_downloader",
+    "description": "Download data from Pacifica.",
     "license": "LGPL-3.0",
     "type": "drupal-module",
     "authors": [
